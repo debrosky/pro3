@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Register</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body style="margin-left:550px;">
+
+<div class="container">
+<div class="row">
+    <div class="col-sm-4">
+  <div class="jumbotron" style="margin-top: 50px; ">
+        <div class="page-header">
+        	<ul class="nav navbar-nav navbar-right">
+                       <a href="login.html">LOGIN</a>
+                    </li>
+                </ul>
+
+            <h2 style="margin-bottom: 20px; font-family:verdana;color:red;">Register</h2>
+        <form name="registrationForm" role="form" method="post">
+            <input name="__RequestVerificationToken" type="hidden" value="oRoY7CNkfqOpLT-Fm-wwb9OBlS1hczhd3wkLSnTAERFFRZoYQ8rnGXGQbftJFrzETljcvxjCMlMLtTlWBtS_ULt7MBOj-WwsPRp7JQrfE1E1" />
+            
+            <div class="form-group">
+            	 <div class="input-group">
+    <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+    <input style="margin-bottom: 20px;" id="Username" type="text" class="form-control" name="email" placeholder="Username">
+  </div>
+                <div class="input-group">
+    <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+    <input id="email" type="text" class="form-control" name="email" placeholder="Email">
+  </div>
+            <div class="input-group " style="margin-top: 20px;">
+    <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+    <input id="password" type="password" class="form-control" name="password" placeholder="Password">
+  </div>
+                 <div class="input-group " style="margin-top: 20px;">
+    <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+    <input id="password" type="password" class="form-control" name="password" placeholder="Confirm password">
+  </div>
+            <div class="form-group" style="margin-top: 30px">
+                <button type="submit" class="btn btn-lg pb-button btn-block btn-primary">Register</button>
+            </div>
+            </div>
+        </form>
+    </div>
+</div>
+  </div>
+  </div>
+</body>
+</html>

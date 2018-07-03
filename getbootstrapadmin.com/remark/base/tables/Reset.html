@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Login</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+  <link rel="stylesheet" type="text/css" href="/Content/font-awesome/css/font-awesome.min.css" />
+  <meta name="description" content="Prep Bootstrap password reset section, used to reset your forgotten password." />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+</head>
+<body style="margin-left:400px;">
+
+<div class="container">
+<div class="row">
+    <div class="col-sm-6">
+  <div class="jumbotron" style="margin-top:80px; ">
+<div class="container">
+    <div class="col-md-12 pb-box">
+        <div class="col-md-12 pb-box">
+        <!-- <div class="text-center">
+            <span class="fa fa-warning pb-bigicon"></span>
+        </div> -->
+        <div class="page-header text-center">
+
+            <h2 style="color: red;" >Password Reset</h2>
+        </div>
+            <div class="alert alert-warning alert-dismissible" role="alert">
+                <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <strong>Warning!</strong> In order to reset your password, please provide the email address you have registered your PrepBootstrap account with below.
+            </div>            
+            <br />
+            <form name="loginForm" role="form" method="post">
+                <input name="__RequestVerificationToken" type="hidden" value="IR9bJH56sbFPPv2sPWgqr_lKTxHZ0F53bDANTp0RgQszHAJso8D0GjmfbqL8hDp4LvKg50VAHJSeaTYHRKqMBTbb0XW_cVlj_b9wEMyOuyk1" />
+                
+
+                <div class="form-group">
+                    <div class="input-group">
+                  <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                  <input id="email" type="text" class="form-control" name="email" placeholder="Email">
+               </div>
+             </div>
+                <button style="background-color: black; color: red;" type="submit" class="btn btn-lg pb-button btn-block">Reset Password</button>
+            </form>
+
+</div>
+  </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
